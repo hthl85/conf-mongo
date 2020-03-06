@@ -1,7 +1,5 @@
 package mongoconf
 
-import "time"
-
 // MongoConf struct
 type MongoConf struct {
 	Host          string
@@ -12,5 +10,5 @@ type MongoConf struct {
 	MinPoolSize   uint64
 	MaxPoolSize   uint64
 	MaxIdleTimeMS uint64
-	Timeout       time.Duration
+	TimeoutMS     uint64
 }
